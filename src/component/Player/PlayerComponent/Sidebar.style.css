@@ -13,3 +13,38 @@
     height: 70px;
     padding: 10px;
 }
+
+.sidebar__playlist , .sidebar__liked{
+  display: inline-block;
+}
+
+.sidebar__playlist svg{
+  background-color: gray;
+  color: #000;
+  padding: 7px;
+  width: 1.5em;
+  height: 1.5em;
+  transition: 200ms background ease-in;
+}
+
+.sidebar__playlist:hover svg{
+  background-color: white;
+}
+
+.sidebar__liked svg{
+  background: linear-gradient(135deg, rgb(19, 3, 241) ,rgb(255, 255, 255));
+  color: white;
+  padding: 7px;
+  width: 1.5em;
+  height: 1.5em;
+  transition: 200ms all ease-in;
+  opacity: 0.5;
+}
+
+.sidebar__liked:hover svg{
+  opacity: 1;
+}
+
+hr{
+  color: gray;
+}
